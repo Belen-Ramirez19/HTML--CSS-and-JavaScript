@@ -1,0 +1,16 @@
+function guessNumber (number, random) {
+    //Condition that evalueate id the number typed by the user is between o and 100...
+    if(The number typed by the user is between o and 100) {
+        //If the user guesses thenumber...
+        if (the user guesses the number) {
+            //The paragraph will say that guessed the number.
+            document.getElementById("answer").innerHTML ="Oh no! Is not the number. Try again";
+    }
+    }
+    //If the number is not in the interval...
+    else {
+        //The paragraph will say that type a valid number.
+        document.getElementById("answer").innerHTML = "Please, type a valid number";
+    }
+}
+    

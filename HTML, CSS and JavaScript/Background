@@ -1,0 +1,25 @@
+/*This is the selector for the container subscribe.*/
+.susbcribe form {
+    /*Display flex to adapt to contents properly in the screen and justofy content space around to put the elements one next to the other with a space between them.*/
+    display: flex;
+    justify-content: scape-around;
+}
+/*Modifying the input inside of the form*/
+.subscribe form input{
+    width: 30%;
+    height: 1%;
+    padding: 5px 10px 5px 10px;
+}
+/*Editing button inside of the form*/
+.subscription{
+    background-color: pink;
+    color: white;
+    border: none;
+    border-radius: 12px;
+    font-weight: bold;
+    cursor: pointer;
+}
+/* confirmation text will be centered.*/
+.mailconfirmation{
+    text-align: center;
+}

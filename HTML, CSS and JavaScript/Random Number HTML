@@ -1,0 +1,16 @@
+<!--Random number created by the program inside of a script tag.-->
+<script>
+    let random=Math.floor(Math.random()*100);
+    </script>
+    <!--We eill create a div that will contain all the elements of the game (texts, inputs, etc.)-->
+    <div class="subscribe">
+        <!--Inside of this, we will create the title of the section, using again presious styles that we've used.-->
+        <h2 class="crewtitle">An additional challenge for you!</h2>
+        <!--A subtitle to notify to the user that have to type a number between 0 and 100 to guess.-->
+        <label for="number">Type a number between 0 and 100. Try to guess the number!</label>
+        <!--We've created here the form to recieve the number tayped by the user and the button to send the information.-->
+        <!--If you see carefully, in action we have this code. That means, when the user click in the buttom, will execute the JacaScript function guessNumber (this function will recieve two parameters: the number typed by the user and the random number, genereted above)-->
+        <form action="javascript:guessNumber(number.value, random)" method="post">
+            <input type="number" id="number" name="number"/>
+            <input calss="subscription" type="submit" name="guess" value="Guess now!">
+            </form>

@@ -1,0 +1,16 @@
+<!--We will create a div that will contain the subscription section.-->
+<div class="subscribe">
+    <!--Inside of this, we sill create the title of the section, using again previous styles we'ev used.-->
+    <h2 class="crewtitle"> Do you want more information about our proyect? </h2>
+    <!--A subtitle to notify to the user that here they can send a subscription form.-->
+    <h4> Type your email to subscribe and get full access to your content!</h4>
+    <!--We'ev created here the form to recieve the mail and the button to send the information.-->
+    <!--If you see carefully, in action we have this code. That means, when the user click in the button, will execute the JavaScript function sendMail, and inside, we will put the mail that we'ev typed in the input-->
+    <form action="javascript:sendMail(name.value)" method="post">
+        <input type="email" name="email" placeholder="mail@example.com"/>
+        <input calss="subscription" type="submit" name="sand-mail" value="send"/>
+        </form>
+        <!--This is the paragraph that will say something if the email was sent successfully-->
+        <div class="mailconfirmation"><p id="mailsuccess"></p></div>
+        </div>
+      

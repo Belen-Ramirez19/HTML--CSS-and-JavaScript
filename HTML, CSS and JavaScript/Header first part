@@ -1,0 +1,96 @@
+ <!--Header for our head bar--> 
+    <header> 
+        <!--We've created a div or container that will 
+        contain all menu elements with styles provided 
+        by CSS.--> 
+        <div class="menubar"> 
+            <!--First part, is the company logo with a name 
+            besides.--> 
+            <div class="menusection" style="padding-left: 0"> 
+                <img class="logo" alt="" src="./sampleimages/badge-_1_.png"/> 
+                <!--For the h1, we've used inline-block to put elements 
+                besides to the other.--> 
+                <h1 class="AlyDev" style="display: inline-block;">Don't forget</h1> 
+            </div> 
+            <!--For this menu, we will create another container that will store  
+            the menu elements, we've used inline-block to put elements 
+            besides to the other. Also, with padding, we've created the spaces 
+            between elements.--> 
+            <div class="menusection" style="padding-left: 10vw"> 
+                <!--ul to create the list, and li for each element.--> 
+                <ul> 
+                    <!--List items with images that have to be located in the same 
+                    folder that is used in VS Code. Also, elements are located inline 
+                block to put one beside to the other.--> 
+                    <li style="display: inline-block;"><imgclass="lang_icons" alt="" src="./sampleimages/spain_icon.png"/></li> 
+                    <li style="display: inline-block;"><imgclass="lang_icons" alt="" src="./sampleimages/uk_icon.png"/></li> 
+                    <li style="display: inline-block;"><imgclass="lang_icons" alt="" src="./sampleimages/brazil_icon.png"/></li> 
+                </ul> 
+            </div> 
+            <!--This is another container that will contain the sign in section: 
+            with an image and the sign in logo. Also, we can see all CSS classes with 
+        additional styles like inline-block and padding- left, to keep the elements one 
+    beside to the other and separated.--> 
+            <div class="menusection" style="padding-left: 30vw;"> 
+                <ul> 
+                    <li class="signin">SIGN IN</li> 
+                    <li style="display: inline-block;"><imgclass="lang_icons" style="padding-right: 2px;" alt=""src="./sampleimages/login-logo-icon-png-svg.png"/></li> 
+                </ul> 
+            </div> 
+        </div> 
+        <!--Header finishes here--> 
+    </header> 
+body{
+    background-color: paleturquoise;
+}
+.menubar{
+    display: inline-block
+}
+/* Header Menu 1 */
+.header-menu {
+    position: absolute;
+    top: 24px;
+    left: 720px;
+    width: 375px;
+    height: 64px;
+    display: flex;
+    align-items: center;
+    font-family: Inter; /* Body */
+}
+/*  Header Menu 1 - Item */
+.header-menu .header-menu-item {
+    padding: 18px 20px;
+    display: flex;
+    align-items: center;
+
+}
+
+<div> 
+div>
+<h2> Our programming Database </h2>
+<!-- container that will contain cards -->
+<div class="greatcontainer">
+<!-- the card -->
+<div calss="card">
+    <img calss="flowchart" alt="Flowchart src="./start.png">
+    <h5> Yearly budget problem </h5>
+    <p> In a hospital, we can find three areas: Urgencies, Pediatric and Traumatology. The yearly budget is distributed: Urgencies (37%), Pediatric (42%) and Traumatology (21%)
+        <button> View flowchart</button>
+    </body>
+</html>
+<!--Container that will contain the cards-->
+<div class="greatcontainer">
+    <!--the card-->
+    <div class="card">
+        <img class="flowchart" alt="Flowchart" src="./restaurant flow.png">
+        <h5> Restaurant Tax and discount </h5>
+        <p> A restaurant offers a discount of 10% if the client consumes until $100 in products and a discount of 20% for higher consumes. For both cases, the tax percentage is 12%. Do a flowchart that can determine the discount value, the tax value and total price.
+            
+            </html>
+            <!--Container that will contain the cards-->
+            <div class="greatcontainer">
+                <!--the card-->
+                <div class="card">
+                    <img class="flowchart" alt="Flowchart" src="./Start 3.png">
+                    <h5>Numbers divisible by 2 </h5> 
+                    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque fugit quod repellat! Error, quis fugiat. Vel quis repudiandae laboriosam sint accusamus. Quis deserunt obcaecati hic molestias ipsa maiores illum neque!

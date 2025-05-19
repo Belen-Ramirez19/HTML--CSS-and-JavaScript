@@ -1,0 +1,5 @@
+/*The label related to the input of the number will displayed of the other contents and will have a margin to separate the other elements.*/
+.subscribe label{
+    display:block;
+    margin-bottom: 20px;
+}
